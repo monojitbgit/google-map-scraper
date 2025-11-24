@@ -6,19 +6,19 @@ It retrieves business names, phone numbers, addresses, plus codes, and websites 
 
 ---
 
-## ⚙️ Key Features
+## Key Features
 
-- 🔍 Scrapes business listings from **Google Maps**
-- 🧾 Extracts **name**, **phone number**, **address**, **Plus Code**, and **website**
-- 📄 Saves results directly to a **Google Sheet**
-- 🌆 Reads city or business queries dynamically from another sheet
-- 🔁 Automatically resumes for multiple queries
-- 💾 Prevents duplicate entries with tracking
-- 🧠 Detects and skips unavailable or malformed listings
+- Scrapes business listings from **Google Maps**
+- Extracts **name**, **phone number**, **address**, **Plus Code**, and **website**
+- Saves results directly to a **Google Sheet**
+- Reads city or business queries dynamically from another sheet
+- Automatically resumes for multiple queries
+- Prevents duplicate entries with tracking
+- Detects and skips unavailable or malformed listings
 
 ---
 
-## 🧩 Project Structure
+## Project Structure
 Google-Map-Scraper/
 <br>│
 <br>├── main.py # Main scraper script
@@ -29,7 +29,7 @@ Google-Map-Scraper/
 
 ---
 
-## 🪜 Prerequisites
+## Prerequisites
 
 Before running the script, ensure you have:
 
@@ -45,7 +45,7 @@ Before running the script, ensure you have:
 
 ---
 
-## 📦 Installation & Setup
+## Installation & Setup
 
 
 ### 1️⃣ Clone the repository
@@ -84,7 +84,7 @@ Download ChromeDriver matching your installed Chrome version from:
 
 <br>
 
-## 💻 Running the Scraper
+## Running the Scraper
 
 Once everything is configured, simply run:
 <br>python gmapscraper.py
@@ -99,7 +99,7 @@ The script will:
 
 ---
 
-## 📘 Dependencies
+## Dependencies
 
 Listed in requirements.txt:
 <br>selenium
@@ -111,7 +111,7 @@ Install them all:
 <br>pip install -r requirements.txt
 
 ---
-## 🧾 License
+## License
 
 This project is licensed under the MIT License.
 <br>You’re free to use, modify, and distribute it with attribution.
